@@ -1,0 +1,11 @@
+[package]
+name = "mongodb-with-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+# actix-web.workspace = true
+mongodb = "3"
+serde = "1.0.210"
+# serde.workspace = true
